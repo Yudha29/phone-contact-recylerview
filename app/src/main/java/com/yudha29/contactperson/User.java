@@ -1,9 +1,18 @@
 package com.yudha29.contactperson;
 
+/**
+ * User data model
+ *
+ * Class to define the user model.
+ */
 public class User {
+    /** Attributes **/
+
     public String id;
     public String name;
     public String email;
+
+    /** Getter & Setter **/
 
     public String getId() {
         return id;
